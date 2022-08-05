@@ -9,13 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Offer(title: "My offer", description: "This is a description")
     }
 }
 
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Group {            ContentView()
+                .previewInterfaceOrientation(.portraitUpsideDown)
+        }
     }
 }
