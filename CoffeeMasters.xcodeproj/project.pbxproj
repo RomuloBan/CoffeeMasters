@@ -11,6 +11,9 @@
 		DD372FB8289948B500ECB221 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD372FB7289948B500ECB221 /* ContentView.swift */; };
 		DD372FBA289948B700ECB221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD372FB9289948B700ECB221 /* Assets.xcassets */; };
 		DD372FBD289948B700ECB221 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD372FBC289948B700ECB221 /* Preview Assets.xcassets */; };
+		DD42574528A6A38A00D6B8AD /* MenuPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD42574428A6A38A00D6B8AD /* MenuPage.swift */; };
+		DD42574728A6A3A500D6B8AD /* OrdersPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD42574628A6A3A500D6B8AD /* OrdersPage.swift */; };
+		DD42574928A6A3B900D6B8AD /* InfoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD42574828A6A3B900D6B8AD /* InfoPage.swift */; };
 		DD8336B0289D64A60078FA98 /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8336AF289D64A60078FA98 /* Offer.swift */; };
 		DD960A8C289F12C000AC72AC /* OffersPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD960A8B289F12BF00AC72AC /* OffersPage.swift */; };
 /* End PBXBuildFile section */
@@ -21,6 +24,9 @@
 		DD372FB7289948B500ECB221 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DD372FB9289948B700ECB221 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD372FBC289948B700ECB221 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD42574428A6A38A00D6B8AD /* MenuPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPage.swift; sourceTree = "<group>"; };
+		DD42574628A6A3A500D6B8AD /* OrdersPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersPage.swift; sourceTree = "<group>"; };
+		DD42574828A6A3B900D6B8AD /* InfoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPage.swift; sourceTree = "<group>"; };
 		DD8336AF289D64A60078FA98 /* Offer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
 		DD960A8B289F12BF00AC72AC /* OffersPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -55,12 +61,12 @@
 		DD372FB4289948B500ECB221 /* CoffeeMasters */ = {
 			isa = PBXGroup;
 			children = (
-				DD372FB5289948B500ECB221 /* CoffeeMastersApp.swift */,
+				DD42574328A6A34500D6B8AD /* Page Views */,
+				DD42574228A6A2F000D6B8AD /* Views */,
 				DD372FB7289948B500ECB221 /* ContentView.swift */,
+				DD372FB5289948B500ECB221 /* CoffeeMastersApp.swift */,
 				DD372FB9289948B700ECB221 /* Assets.xcassets */,
 				DD372FBB289948B700ECB221 /* Preview Content */,
-				DD8336AF289D64A60078FA98 /* Offer.swift */,
-				DD960A8B289F12BF00AC72AC /* OffersPage.swift */,
 			);
 			path = CoffeeMasters;
 			sourceTree = "<group>";
@@ -71,6 +77,25 @@
 				DD372FBC289948B700ECB221 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DD42574228A6A2F000D6B8AD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DD8336AF289D64A60078FA98 /* Offer.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DD42574328A6A34500D6B8AD /* Page Views */ = {
+			isa = PBXGroup;
+			children = (
+				DD960A8B289F12BF00AC72AC /* OffersPage.swift */,
+				DD42574428A6A38A00D6B8AD /* MenuPage.swift */,
+				DD42574628A6A3A500D6B8AD /* OrdersPage.swift */,
+				DD42574828A6A3B900D6B8AD /* InfoPage.swift */,
+			);
+			path = "Page Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,7 +170,10 @@
 			files = (
 				DD8336B0289D64A60078FA98 /* Offer.swift in Sources */,
 				DD960A8C289F12C000AC72AC /* OffersPage.swift in Sources */,
+				DD42574528A6A38A00D6B8AD /* MenuPage.swift in Sources */,
+				DD42574928A6A3B900D6B8AD /* InfoPage.swift in Sources */,
 				DD372FB8289948B500ECB221 /* ContentView.swift in Sources */,
+				DD42574728A6A3A500D6B8AD /* OrdersPage.swift in Sources */,
 				DD372FB6289948B500ECB221 /* CoffeeMastersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +314,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,6 +346,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -341,7 +371,7 @@
 				DD372FBF289948B700ECB221 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		DD372FC0289948B700ECB221 /* Build configuration list for PBXNativeTarget "CoffeeMasters" */ = {
 			isa = XCConfigurationList;
@@ -350,7 +380,7 @@
 				DD372FC2289948B700ECB221 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
