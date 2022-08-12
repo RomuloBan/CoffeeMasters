@@ -14,6 +14,8 @@
 		DD42574528A6A38A00D6B8AD /* MenuPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD42574428A6A38A00D6B8AD /* MenuPage.swift */; };
 		DD42574728A6A3A500D6B8AD /* OrdersPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD42574628A6A3A500D6B8AD /* OrdersPage.swift */; };
 		DD42574928A6A3B900D6B8AD /* InfoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD42574828A6A3B900D6B8AD /* InfoPage.swift */; };
+		DD42574B28A6A5DD00D6B8AD /* ProductItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD42574A28A6A5DD00D6B8AD /* ProductItem.swift */; };
+		DD42574D28A6A8C500D6B8AD /* DetailsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD42574C28A6A8C500D6B8AD /* DetailsPage.swift */; };
 		DD8336B0289D64A60078FA98 /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8336AF289D64A60078FA98 /* Offer.swift */; };
 		DD960A8C289F12C000AC72AC /* OffersPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD960A8B289F12BF00AC72AC /* OffersPage.swift */; };
 /* End PBXBuildFile section */
@@ -27,6 +29,8 @@
 		DD42574428A6A38A00D6B8AD /* MenuPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPage.swift; sourceTree = "<group>"; };
 		DD42574628A6A3A500D6B8AD /* OrdersPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersPage.swift; sourceTree = "<group>"; };
 		DD42574828A6A3B900D6B8AD /* InfoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPage.swift; sourceTree = "<group>"; };
+		DD42574A28A6A5DD00D6B8AD /* ProductItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItem.swift; sourceTree = "<group>"; };
+		DD42574C28A6A8C500D6B8AD /* DetailsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsPage.swift; sourceTree = "<group>"; };
 		DD8336AF289D64A60078FA98 /* Offer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
 		DD960A8B289F12BF00AC72AC /* OffersPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				DD8336AF289D64A60078FA98 /* Offer.swift */,
+				DD42574A28A6A5DD00D6B8AD /* ProductItem.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -94,6 +99,7 @@
 				DD42574428A6A38A00D6B8AD /* MenuPage.swift */,
 				DD42574628A6A3A500D6B8AD /* OrdersPage.swift */,
 				DD42574828A6A3B900D6B8AD /* InfoPage.swift */,
+				DD42574C28A6A8C500D6B8AD /* DetailsPage.swift */,
 			);
 			path = "Page Views";
 			sourceTree = "<group>";
@@ -171,7 +177,9 @@
 				DD8336B0289D64A60078FA98 /* Offer.swift in Sources */,
 				DD960A8C289F12C000AC72AC /* OffersPage.swift in Sources */,
 				DD42574528A6A38A00D6B8AD /* MenuPage.swift in Sources */,
+				DD42574D28A6A8C500D6B8AD /* DetailsPage.swift in Sources */,
 				DD42574928A6A3B900D6B8AD /* InfoPage.swift in Sources */,
+				DD42574B28A6A5DD00D6B8AD /* ProductItem.swift in Sources */,
 				DD372FB8289948B500ECB221 /* ContentView.swift in Sources */,
 				DD42574728A6A3A500D6B8AD /* OrdersPage.swift in Sources */,
 				DD372FB6289948B500ECB221 /* CoffeeMastersApp.swift in Sources */,
