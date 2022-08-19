@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD1624DC28AFC8F800FBBAC2 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1624DB28AFC8F800FBBAC2 /* Category.swift */; };
+		DD1624DE28AFC91000FBBAC2 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1624DD28AFC91000FBBAC2 /* Product.swift */; };
+		DD1624E028AFCD8700FBBAC2 /* MenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1624DF28AFCD8700FBBAC2 /* MenuManager.swift */; };
+		DD1624E228AFCDAF00FBBAC2 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1624E128AFCDAF00FBBAC2 /* CartManager.swift */; };
 		DD372FB6289948B500ECB221 /* CoffeeMastersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD372FB5289948B500ECB221 /* CoffeeMastersApp.swift */; };
 		DD372FB8289948B500ECB221 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD372FB7289948B500ECB221 /* ContentView.swift */; };
 		DD372FBA289948B700ECB221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD372FB9289948B700ECB221 /* Assets.xcassets */; };
@@ -21,6 +25,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD1624DB28AFC8F800FBBAC2 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		DD1624DD28AFC91000FBBAC2 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		DD1624DF28AFCD8700FBBAC2 /* MenuManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuManager.swift; sourceTree = "<group>"; };
+		DD1624E128AFCDAF00FBBAC2 /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
 		DD372FB2289948B500ECB221 /* CoffeeMasters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeMasters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD372FB5289948B500ECB221 /* CoffeeMastersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeMastersApp.swift; sourceTree = "<group>"; };
 		DD372FB7289948B500ECB221 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +54,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD1624DA28AFC8BC00FBBAC2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DD1624DB28AFC8F800FBBAC2 /* Category.swift */,
+				DD1624DD28AFC91000FBBAC2 /* Product.swift */,
+				DD1624DF28AFCD8700FBBAC2 /* MenuManager.swift */,
+				DD1624E128AFCDAF00FBBAC2 /* CartManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		DD372FA9289948B500ECB221 = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +84,7 @@
 		DD372FB4289948B500ECB221 /* CoffeeMasters */ = {
 			isa = PBXGroup;
 			children = (
+				DD1624DA28AFC8BC00FBBAC2 /* Model */,
 				DD42574328A6A34500D6B8AD /* Page Views */,
 				DD42574228A6A2F000D6B8AD /* Views */,
 				DD372FB7289948B500ECB221 /* ContentView.swift */,
@@ -174,15 +194,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD1624E028AFCD8700FBBAC2 /* MenuManager.swift in Sources */,
 				DD8336B0289D64A60078FA98 /* Offer.swift in Sources */,
+				DD1624DC28AFC8F800FBBAC2 /* Category.swift in Sources */,
 				DD960A8C289F12C000AC72AC /* OffersPage.swift in Sources */,
 				DD42574528A6A38A00D6B8AD /* MenuPage.swift in Sources */,
 				DD42574D28A6A8C500D6B8AD /* DetailsPage.swift in Sources */,
+				DD1624DE28AFC91000FBBAC2 /* Product.swift in Sources */,
 				DD42574928A6A3B900D6B8AD /* InfoPage.swift in Sources */,
 				DD42574B28A6A5DD00D6B8AD /* ProductItem.swift in Sources */,
 				DD372FB8289948B500ECB221 /* ContentView.swift in Sources */,
 				DD42574728A6A3A500D6B8AD /* OrdersPage.swift in Sources */,
 				DD372FB6289948B500ECB221 /* CoffeeMastersApp.swift in Sources */,
+				DD1624E228AFCDAF00FBBAC2 /* CartManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

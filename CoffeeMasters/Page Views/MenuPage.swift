@@ -15,7 +15,7 @@ struct MenuPage: View {
                     NavigationLink {
                         DetailsPage()
                     } label: {
-                        ProductItem()
+                        ProductItem(product: Product(id: 1, name: "Product", description: "", price: 2.50, image: ""))
                     }
                 }
             }.navigationTitle("Products")
