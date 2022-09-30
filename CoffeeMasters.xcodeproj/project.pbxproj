@@ -11,6 +11,7 @@
 		DD1624DE28AFC91000FBBAC2 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1624DD28AFC91000FBBAC2 /* Product.swift */; };
 		DD1624E028AFCD8700FBBAC2 /* MenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1624DF28AFCD8700FBBAC2 /* MenuManager.swift */; };
 		DD1624E228AFCDAF00FBBAC2 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1624E128AFCDAF00FBBAC2 /* CartManager.swift */; };
+		DD17641828B520470068BB5D /* OrderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD17641728B520470068BB5D /* OrderItem.swift */; };
 		DD372FB6289948B500ECB221 /* CoffeeMastersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD372FB5289948B500ECB221 /* CoffeeMastersApp.swift */; };
 		DD372FB8289948B500ECB221 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD372FB7289948B500ECB221 /* ContentView.swift */; };
 		DD372FBA289948B700ECB221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD372FB9289948B700ECB221 /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 		DD1624DD28AFC91000FBBAC2 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		DD1624DF28AFCD8700FBBAC2 /* MenuManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuManager.swift; sourceTree = "<group>"; };
 		DD1624E128AFCDAF00FBBAC2 /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		DD17641728B520470068BB5D /* OrderItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderItem.swift; sourceTree = "<group>"; };
 		DD372FB2289948B500ECB221 /* CoffeeMasters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeMasters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD372FB5289948B500ECB221 /* CoffeeMastersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeMastersApp.swift; sourceTree = "<group>"; };
 		DD372FB7289948B500ECB221 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 			children = (
 				DD8336AF289D64A60078FA98 /* Offer.swift */,
 				DD42574A28A6A5DD00D6B8AD /* ProductItem.swift */,
+				DD17641728B520470068BB5D /* OrderItem.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				DD1624DE28AFC91000FBBAC2 /* Product.swift in Sources */,
 				DD42574928A6A3B900D6B8AD /* InfoPage.swift in Sources */,
 				DD42574B28A6A5DD00D6B8AD /* ProductItem.swift in Sources */,
+				DD17641828B520470068BB5D /* OrderItem.swift in Sources */,
 				DD372FB8289948B500ECB221 /* ContentView.swift in Sources */,
 				DD42574728A6A3A500D6B8AD /* OrdersPage.swift in Sources */,
 				DD372FB6289948B500ECB221 /* CoffeeMastersApp.swift in Sources */,
