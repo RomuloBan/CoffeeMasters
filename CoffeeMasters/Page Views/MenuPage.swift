@@ -18,7 +18,7 @@ struct MenuPage: View {
                     
                     ForEach(category.products) { product in
                         NavigationLink {
-                            DetailsPage()
+                            DetailsPage(product: product)
                         } label: {
                             ProductItem(product: product)
                         }
@@ -32,5 +32,6 @@ struct MenuPage: View {
 struct MenuPage_Previews: PreviewProvider {
     static var previews: some View {
         MenuPage()
+            .environmentObject(MenuManager())
     }
 }
