@@ -25,12 +25,13 @@ struct OrderItem: View {
                 .onTapGesture {
                     cartManager.remove(product: item.0)
                 }
-        }.padding()
+        }
     }
 }
 
 struct OrderItem_Previews: PreviewProvider {
     static var previews: some View {
         OrderItem(item: (Product(id: 1, name: "Dummy", description: "", price: 1.25, image: ""), 2))
+            .padding()
     }
 }
